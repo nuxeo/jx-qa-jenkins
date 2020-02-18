@@ -28,3 +28,4 @@ build:
           repo: ${DOCKER_REGISTRY}/nuxeo/qa-jenkinsx/cache
   cluster:
     namespace: qa
+    pullSecretName: kaniko-secret
