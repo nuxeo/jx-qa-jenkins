@@ -1,0 +1,8 @@
+configuration-as-code:1.35
+configuration-as-code-groovy:1.1
+github-oauth:0.33
+embeddable-build-status:2.0.3
+pipeline-github:2.5
+pipeline-utility-steps:2.3.1
+timestamper:1.10
+workflow-basic-steps:2.18

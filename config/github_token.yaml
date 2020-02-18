@@ -1,0 +1,15 @@
+credentials:
+  system:
+    domainCredentials:
+      - credentials:
+        - string:
+            description: "NXBT-2856 nuxeojenkins GitHub API token"
+            id: "github_token"
+            scope: GLOBAL
+            secret: "${GITHUB_TOKEN}"
+
+unclassified:
+  gitHubPluginConfig:
+    configs:
+      - credentialsId: "github_token"
+        name: "nuxeo"
